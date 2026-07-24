@@ -1,0 +1,17 @@
+# Git
+.git
+
+# Virtual environment
+.venv
+
+# Python cache
+__pycache__
+
+# Pytest
+.pytest_cache
+
+# Environment variables
+.env
+
+# VS Code
+.vscode
