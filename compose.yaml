@@ -1,0 +1,41 @@
+services:
+  api:
+    container_name: docker-learning-lab-api
+
+    build:
+      # Use the current directory as the build context and specify the Dockerfile to use
+      context: .
+      dockerfile: Dockerfile
+
+    image: docker-learning-lab:v1
+
+    ports:
+      - "8000:8000"
+
+    env_file:
+      - .env
+
+    depends_on:
+      - postgres
+
+    # Restart the API container unless it's stopped manually
+    restart: unless-stopped
+
+  postgres:
+    container_name: docker-learning-lab-postgres
+
+    image: postgres:15.3-alpine
+
+    env_file:
+      - .env
+
+    restart: unless-stopped
+
+    volumes:
+      # Mount the postgres_data volume to persist database data
+      - postgres_data:/var/lib/postgresql/data
+      # Mount the init.sql file to the container's entrypoint directory
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+
+volumes:
+  postgres_data:
