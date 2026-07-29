@@ -60,7 +60,7 @@ docker-learning-lab/
 ### 1. Clonar o repositório
 
 ```bash
-git clone <url-do-repositório>
+git clone <https://github.com/lfportto/docker-learning-lab>
 ```
 
 ### 2. Criar o arquivo `.env`
