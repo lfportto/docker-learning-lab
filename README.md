@@ -90,6 +90,12 @@ http://localhost:8000/docs
 
 ---
 
+## Demo
+🔗 Clicando [aqui](https://drive.google.com/file/d/1XFbO72OoKUGjGKe--eoCVtj_vJTtBqgR/view?usp=drive_link), você pode conferir uma rápida demonstração (1min39seg) dessa aplicação. O vídeo está em inglês.
+![demo_gif](https://github.com/user-attachments/assets/102ee7ae-f0bf-46e7-9b8e-7d0803abc474)
+
+---
+
 ## Endpoints
 
 | Método | Endpoint | Descrição |
