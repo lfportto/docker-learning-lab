@@ -86,6 +86,12 @@ http://localhost:8000/docs
 
 ---
 
+## Demo
+🔗 By clicking [here](https://drive.google.com/file/d/1XFbO72OoKUGjGKe--eoCVtj_vJTtBqgR/view?usp=drive_link), you can watch a quick demonstration (1min39sec) of this application.
+![demo_gif](https://github.com/user-attachments/assets/102ee7ae-f0bf-46e7-9b8e-7d0803abc474)
+
+---
+
 ## Endpoints
 | Method | Endpoint      | Description       |
 | ------ | ------------- | ----------------- |
