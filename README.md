@@ -5,7 +5,7 @@
 ## Descrição do Projeto
 O **Docker Learning Lab** é um projeto de estudos desenvolvido para praticar a criação de APIs com FastAPI, containerização de aplicações Python com Docker, orquestração com Docker Compose e persistência de dados utilizando PostgreSQL.
 
-A ideia principal foi construir uma API REST simples para gerenciamento de livros, utilizando boas práticas de desenvolvimento e executando toda a aplicação em containers Docker.
+A ideia principal foi construir uma API REST simples para gerenciamento de livros, utilizando boas práticas de desenvolvimento e executando toda a aplicação em containers Docker. Este projeto foi desenvolvido para ser executado integralmente com Docker Compose. Basta ter o Docker instalado; o banco PostgreSQL é criado e configurado automaticamente, sem necessidade de instalação local dessa e de outras dependências.
 
 Embora seja um projeto pequeno, ele reproduz uma arquitetura muito próxima da utilizada em aplicações reais:
 
@@ -56,6 +56,9 @@ docker-learning-lab/
 ---
 
 ## Como executar
+
+> **Pré-requisitos:** Docker Desktop (ou Docker Engine + Docker Compose)  
+Nenhuma instalação adicional é necessária. O PostgreSQL é executado em um container e configurado automaticamente durante a inicialização do projeto.
 
 ### 1. Clonar o repositório
 
