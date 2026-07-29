@@ -37,15 +37,20 @@ A figura abaixo mostra como foi estruturada a arquitetura por trás desse projet
 ## 📁 Estrutura do Projeto
 ```text
 docker-learning-lab/
-│
-├── main.py
-├── Dockerfile
-├── compose.yaml
-├── requirements.txt
-├── init.sql
-├── .env.example
-├── README.md
-└── ...
+    ├── assets/
+    │   ├── FastAPI_docs.jpeg
+    │   └── project_architecture.png
+    ├── .dockerignore
+    ├── .env.example
+    ├── .gitignore
+    ├── compose.yaml
+    ├── Dockerfile
+    ├── init.sql
+    ├── LICENSE
+    ├── main.py
+    ├── README_English.md
+    ├── README.md
+    └── requirements.txt
 ```
 
 ---
