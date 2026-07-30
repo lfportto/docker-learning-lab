@@ -38,6 +38,7 @@ A figura abaixo mostra como foi estruturada a arquitetura por trás desse projet
 ```text
 docker-learning-lab/
     ├── assets/
+    │   ├── demo_gif.gif
     │   ├── FastAPI_docs.jpeg
     │   └── project_architecture.png
     ├── .dockerignore
@@ -63,7 +64,7 @@ Nenhuma instalação adicional é necessária. O PostgreSQL é executado em um c
 ### 1. Clonar o repositório
 
 ```bash
-git clone <https://github.com/lfportto/docker-learning-lab>
+git clone https://github.com/lfportto/docker-learning-lab
 ```
 
 ### 2. Criar o arquivo `.env`

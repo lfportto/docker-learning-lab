@@ -38,6 +38,7 @@ The diagram below illustrates the architecture implemented in this project:
 ```text
 docker-learning-lab/
     ├── assets/
+    │   ├── demo_gif.gif
     │   ├── FastAPI_docs.jpeg
     │   └── project_architecture.png
     ├── .dockerignore
